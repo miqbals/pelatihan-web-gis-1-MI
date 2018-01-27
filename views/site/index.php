@@ -18,11 +18,11 @@ $this->title = 'My Yii Application';
        #mapid { height: 400px; }
    </style>
    <script type="text/javascript">
-       var mymap = L.map('mapid').setView([51.505, -0.09], 13);
+       var mymap = L.map('mapid').setView([-7.821723814835308, 110.35569061730952], 15);
    L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWlxYmFscyIsImEiOiJjamN4MHQ4N3Iwa2FhMnJuc3BtZGx6eXpnIn0.yqSZ8uwgCFUTPoVeWwSYYQ', {
     attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
     maxZoom: 18,
-    id: 'mapbox.streets',
+    id: 'mapbox.satellite',
     accessToken: 'pk.eyJ1IjoibWlxYmFscyIsImEiOiJjamN4MHQ4N3Iwa2FhMnJuc3BtZGx6eXpnIn0.yqSZ8uwgCFUTPoVeWwSYYQ'
 }).addTo(mymap);
    </script>
